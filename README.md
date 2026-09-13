@@ -1,8 +1,8 @@
-# Scout
+# Glyph-Explorer
 
 A small terminal file explorer built as a reference application for the **Glyph** TUI framework.
 
-The goal is not to be a full-featured file manager. Scout is deliberately small, but it exercises a useful cross-section of Glyph:
+The goal is not to be a full-featured file manager, its more like a exercise to try the framework :). Glyph-Explorer is deliberately small, but it exercises a useful cross-section of Glyph:
 
 - application lifecycle
 - keyboard input and key bindings
@@ -53,6 +53,4 @@ scout/
 ├── view.go          # Glyph UI and row rendering
 └── README.md
 ```
-
-Scout intentionally keeps the domain state (`Explorer`) separate from the Glyph view. That makes it useful as a small integration/reference project while also making the framework API easier to evaluate.
 # Glyph-Explorer
