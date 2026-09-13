@@ -31,17 +31,17 @@ go run . ~/Downloads
 
 ## Controls
 
-| Key | Action |
-|---|---|
-| `↑` / `k` | Move up |
-| `↓` / `j` | Move down |
+| Key           | Action              |
+| ------------- | ------------------- |
+| `↑` / `k`     | Move up             |
+| `↓` / `j`     | Move down           |
 | `Enter` / `l` | Open directory/file |
-| `←` / `h` | Parent directory |
-| `Backspace` | Parent directory |
-| `g` | First entry |
-| `G` | Last entry |
-| `.` | Toggle hidden files |
-| `q` | Quit |
+| `←` / `h`     | Parent directory    |
+| `Backspace`   | Parent directory    |
+| `g`           | First entry         |
+| `G`           | Last entry          |
+| `.`           | Toggle hidden files |
+| `q`           | Quit                |
 
 ## Structure
 
@@ -52,5 +52,8 @@ scout/
 ├── filesystem.go    # Filesystem primitives
 ├── view.go          # Glyph UI and row rendering
 └── README.md
+
+### Demo
+
+![Glyph file explorer demo](demo.gif)``
 ```
-# Glyph-Explorer
