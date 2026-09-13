@@ -55,5 +55,5 @@ scout/
 
 ### Demo
 
-![Glyph file explorer demo](demo.gif)``
+![Glyph file explorer demo](explorer.gif)``
 ```
