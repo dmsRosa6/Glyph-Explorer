@@ -52,8 +52,9 @@ scout/
 ├── filesystem.go    # Filesystem primitives
 ├── view.go          # Glyph UI and row rendering
 └── README.md
+```
 
-### Demo
+## Demo
 
 ![Glyph file explorer demo](explorer.gif)``
-```
+
