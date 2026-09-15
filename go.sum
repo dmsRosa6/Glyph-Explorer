@@ -1,4 +1,4 @@
-github.com/dmsRosa6/glyph v0.0.0-20260913085305-8826a011376d h1:liOjGNdvzkd+/DXP9JJFV+U37WBUB9mTGcMpMhBx9V8=
-github.com/dmsRosa6/glyph v0.0.0-20260913085305-8826a011376d/go.mod h1:1r8XOtaSCSUXNolGJYQdWvOHggeHKMAkRceaiIp7nzU=
+github.com/dmsRosa6/glyph v0.1.0 h1:TOmV38wMgebRFnPXtcG7woYUO8htEVtfARBReKwk5V0=
+github.com/dmsRosa6/glyph v0.1.0/go.mod h1:1r8XOtaSCSUXNolGJYQdWvOHggeHKMAkRceaiIp7nzU=
 golang.org/x/sys v0.39.0 h1:CvCKL8MeisomCi6qNZ+wbb0DN9E5AATixKsvNtMoMFk=
 golang.org/x/sys v0.39.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
