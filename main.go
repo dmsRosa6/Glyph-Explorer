@@ -47,12 +47,20 @@ func main() {
 		height = 12
 	}
 
+	mode, err := render.FixedFPSMode(30)
+
+	if err != nil {
+		fmt.Fprintln(os.Stderr, err)
+		os.Exit(1)
+	}
+
 	a, err := app.NewApp(app.AppConfig{
 		Width:          width,
 		Height:         height,
 		Bg:             core.Black,
 		Fg:             core.White,
-		RenderMode:     render.OnDemandMode(),
+		RenderMode:     mode,
+		FullTerminal:   true,
 		DisableFileLog: true,
 	})
 	if err != nil {
