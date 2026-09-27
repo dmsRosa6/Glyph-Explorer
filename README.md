@@ -1,8 +1,8 @@
 # Glyph-Explorer
 
-A small terminal file explorer built as a reference application for the **Glyph** TUI framework.
+A small terminal file explorer built as a reference application for the **[Glyph](https://github.com/dmsRosa6/Glyph)** TUI framework.
 
-The goal is not to be a full-featured file manager, its more like a exercise to try the framework :). Glyph-Explorer is deliberately small, but it exercises a useful cross-section of Glyph:
+The goal is not to be a full-featured file manager; it's more like an exercise to try the framework :). Glyph-Explorer is deliberately small, but it exercises a useful cross-section of Glyph:
 
 - application lifecycle
 - keyboard input and key bindings
@@ -46,13 +46,18 @@ go run . ~/Downloads
 ## Structure
 
 ```text
-scout/
+./
 ├── main.go          # Glyph application wiring + input bindings
 ├── explorer.go      # Explorer state and filesystem navigation
 ├── filesystem.go    # Filesystem primitives
 ├── view.go          # Glyph UI and row rendering
 └── README.md
 ```
+
+## Known Issues
+
+* Terminal window resizing does not currently propagate through the entire application tree. This is a known issue and has already been reported in the [Glyph](https://github.com/dmsRosa6/Glyph) project.
+
 
 ## Demo
 
